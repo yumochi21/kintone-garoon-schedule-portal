@@ -1,0 +1,72 @@
+.kgs-header {
+  display: flex;
+  width: calc(100% - 2.4em);
+  height: 56px;
+  margin: 1.2em 1.2em 0em 1.2em;
+  padding: 0px;
+  border-bottom: 1px solid #e3e7e8;
+  background-color: #ffffff;
+}
+
+.kgs-header .kgs-header-logo {
+  display: block;
+  width: 55px;
+}
+
+.kgs-header .kgs-header-title {
+  font-size: 20px;
+  line-height: 56px;
+  padding-left: 24px;
+}
+
+.kgs-body {
+  background-color: #ffffff;
+  margin: 0em 1.2em 1.2em 1.2em;
+}
+
+
+.kgs-body-tabel {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.kgs-body-tabel tr {
+  transition: 0.2s;
+}
+
+.kgs-body-tabel tr:hover {
+  background-color: #f9f9f9;
+}
+
+.kgs-body-tabel th,
+.kgs-body-tabel td {
+  padding: 8px 16px;
+  font-weight: 100;
+  text-align: left;
+  border-left: 1px solid #dddddd;
+}
+
+.kgs-body-tabel th {
+  /* background-color: #666666;
+  color: #ffffff; */
+  background-color: #eeeeee !important;
+  color: #333333;
+}
+
+.kgs-body-tabel td {
+  border-top: 1px solid #dddddd;
+}
+
+.kgs-body-tabel th:first-of-type,
+.kgs-body-tabel td:first-of-type {
+  padding-left: 20px;
+  border-left: 0px;
+}
+
+.kgs-body-tabel tr:first-of-type td {
+  border-top: 0px;
+}
+
+.kgs-body-tabel a:hover {
+  text-decoration: underline;
+}
